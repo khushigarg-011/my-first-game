@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px grey;
+    font-size: 8vmin;
+    color: brown;
+    background-color: #ffffc7;
+}
+
+/*#resetBtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#newBtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}*/
+
+#resetBtn,
+#newBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#resetBtn:hover,
+#newBtn:hover {
+  background-color: #0056b3;
+}
+
+
+#messege {
+    color: bisque;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide {
+    display: none;
+}
+
+/*body {
+  background-color: #5ca7c9;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 2.5rem;
+  color: #222;
+}
+
+🔴 Yahan dikkat ho sakti hai: Agar container class CSS me nahi lage to boxes ek column me aa jaate hain 
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);  /* ✅ This makes 3 columns 
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* ✅ This is perfect for buttons 
+.box {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 15px;
+  border: 2px solid #222;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  transition: 0.2s;
+}
+
+.box:hover {
+  background-color: #f0f0f0;
+}
+
+#resetBtn,
+#newBtn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#resetBtn:hover,
+#newBtn:hover {
+  background-color: #0056b3;
+}
+
+.msg-container {
+  margin-top: 20px;
+}
+
+#messege {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: green;
+}
+
+.hide {
+  display: none;
+}*/
